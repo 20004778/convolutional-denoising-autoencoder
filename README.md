@@ -5,10 +5,10 @@ To develop a convolutional autoencoder for image denoising application.
 ## Problem Statement and Dataset
 Autoencoder is an unsupervised artificial neural network that is trained to copy its input to output. An autoencoder will first encode the image into a lower-dimensional representation, then decodes the representation back to the image.The goal of an autoencoder is to get an output that is identical to the input. MNIST is a dataset of black and white handwritten images of size 28x28.Denoising is the process of removing noise. This can be an image, audio, or document.These noisy digits will serve as our input data to our encoder. Autoencoders uses MaxPooling, convolutional and upsampling layers to denoise the image.
 
-https://user-images.githubusercontent.com/75235813/201460551-99b57c03-8dd9-4ec2-9d7c-1772acf980c4.png
+![image](https://user-images.githubusercontent.com/75236145/201667536-6222e70d-7d3d-462c-ad69-d4733edca7e0.png)
 
 ## Convolution Autoencoder Network Model
-https://user-images.githubusercontent.com/75235813/201571150-eb0f7776-287e-4bdd-b056-42386a694b96.png
+![image](https://user-images.githubusercontent.com/75236145/201667585-fbda3e32-5896-42ea-beda-087075796e7c.png)
 
 ## DESIGN STEPS
 ### Step 1:
@@ -120,10 +120,10 @@ plt.show()
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-[image](https://user-images.githubusercontent.com/75235813/201574001-09806694-cff1-47f0-9c4e-4c53d73cc6af.png)
+![image](https://user-images.githubusercontent.com/75236145/201667674-2cf8977e-81ad-4241-9823-cc447e6e730e.png)
 
 ### Original vs Noisy Vs Reconstructed Image
-[image](https://user-images.githubusercontent.com/75235813/201571003-1364ccf9-11a1-4199-96dd-66db3fca01c4.png)
+![image](https://user-images.githubusercontent.com/75236145/201667712-53bc31af-c86e-4bb8-901d-b10c1a403fa4.png)
 
 ## RESULT
 Thus, a Convolutional Auto Encoder for Denoising was sucessfully implemented.
